@@ -1,3 +1,4 @@
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,3 +41,4 @@ blue_channel_eq = cv2.equalizeHist(color_image[:, :, 0])
 green_channel_eq = cv2.equalizeHist(color_image[:, :, 1])
 red_channel_eq = cv2.equalizeHist(color_image[:, :, 2])
 equalized_color_image = cv2.merge([blue_channel_eq, green_channel_eq, red_channel_eq])
+```
